@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b18">
+  <meta name="description" content="Fridges Macro — tools, macros, and community resources.">
+  <title>Fridges Macro — Macro Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Fridges Macro home">
+      <span class="brand-mark">F<span>+</span></span>
+      <span class="brand-copy"><strong>FRIDGES</strong><small>MACRO HUB</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#store">Store</a><a href="#how-to-buy">How to buy</a><a href="#faq">FAQ</a>
+      <a href="#community">Community</a>
+      <a class="nav-cta" href="https://discord.com/" data-link="discord">Join Discord ↗</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> YOUR MACRO HUB</div>
+        <h1>Make your grind<br>feel <span class="gradient-text">effortless.</span></h1>
+        <p class="hero-subtitle">Explore tools and macro packs built for a smoother setup. Find what fits your workflow and get help from the community.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#store">Explore the store <span>↘</span></a>
+          <a class="button button-ghost" href="#how-to-buy">How it works</a>
+        </div>
+        <div class="hero-proof"><span class="avatar-stack"><i>F</i><i>M</i><i>+</i></span><span><strong>Made for the community</strong><small>Updates, support & useful tools</small></span></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative Fridges Macro graphic">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="hero-core"><div class="core-symbol">F<span>+</span></div><div class="core-caption">FRIDGES<br><b>MACRO</b></div></div>
+        <div class="float-chip chip-top"><span class="chip-icon">✦</span><span><b>Simple setup</b><small>Get started quickly</small></span></div>
+        <div class="float-chip chip-bottom"><span class="chip-icon">⌘</span><span><b>Community support</b><small>Need a hand? Join us</small></span></div>
+        <div class="spark spark-one">✦</div><div class="spark spark-two">✧</div>
+      </div>
+    </section>
+
+    <section class="stats section-wrap">
+      <div><strong>01</strong><span>Browse products</span></div><div><strong>02</strong><span>Choose your pack</span></div><div><strong>03</strong><span>Get support</span></div>
+    </section>
+
+    <section class="store-section section-wrap" id="store">
+      <div class="section-heading">
+        <div><div class="eyebrow">THE COLLECTION</div><h2>Find your <span class="gradient-text">next tool.</span></h2><p>Browse the collection and pick the setup that works for you.</p></div>
+        <div class="store-count"><span class="count-dot"></span><span id="resultCount">4 products</span></div>
+      </div>
+      <div class="store-controls">
+        <div class="filter-tabs" role="group" aria-label="Filter products">
+          <button class="filter-tab active" data-filter="all">All products</button>
+          <button class="filter-tab" data-filter="premium">Premium</button>
+          <button class="filter-tab" data-filter="free">Free</button>
+          <button class="filter-tab" data-filter="utility">Utilities</button>
+        </div>
+        <label class="search-box"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="Search products..." aria-label="Search products"><kbd>⌕</kbd></label>
+      </div>
+      <div class="product-grid" id="productGrid">
+        <article class="product-card" data-category="premium" data-search="universal macro premium multi mode">
+          <div class="product-visual visual-purple"><span class="visual-orb"></span><span class="product-glyph">✳</span><span class="visual-tag">POPULAR</span></div>
+          <div class="product-info"><div class="product-meta"><span class="category-label purple-label">PREMIUM</span><span class="availability"><i></i> Available</span></div><h3>Universal Macro</h3><p>A flexible macro pack with a streamlined setup and room to grow.</p><ul class="feature-list"><li>✓ Clear setup guide</li><li>✓ Community support</li><li>✓ Updates when available</li></ul><div class="product-bottom"><div class="price"><small>FROM</small><strong>₹199</strong></div><div class="product-actions"><a class="button button-small button-primary" href="https://example.com/payment/universal-macro" data-link="payment-universal">Pay ↗</a><a class="button button-small button-ghost" href="https://www.roblox.com/game-pass/0000000000/" data-link="gamepass-universal">Open Game Pass ↗</a></div></div></div>
+        </article>
+        <article class="product-card" data-category="premium" data-search="challenge pack auto challenge premium">
+          <div class="product-visual visual-blue"><span class="visual-orb"></span><span class="product-glyph">⌁</span><span class="visual-tag">FEATURE PACK</span></div>
+          <div class="product-info"><div class="product-meta"><span class="category-label blue-label">PREMIUM</span><span class="availability"><i></i> Available</span></div><h3>Challenge Pack</h3><p>A focused pack for supported challenge workflows and repeatable setups.</p><ul class="feature-list"><li>✓ Guided configuration</li><li>✓ Easy-to-read settings</li><li>✓ Setup documentation</li></ul><div class="product-bottom"><div class="price"><small>FROM</small><strong>₹149</strong></div><div class="product-actions"><a class="button button-small button-primary" href="https://example.com/payment/challenge-pack" data-link="payment-challenge">Pay ↗</a><a class="button button-small button-ghost" href="https://www.roblox.com/game-pass/0000000000/" data-link="gamepass-challenge">Open Game Pass ↗</a></div></div></div>
+        </article>
+        <article class="product-card" data-category="free" data-search="starter macro free beginner">
+          <div class="product-visual visual-pink"><span class="visual-orb"></span><span class="product-glyph">✧</span><span class="visual-tag">FREE</span></div>
+          <div class="product-info"><div class="product-meta"><span class="category-label pink-label">FREE</span><span class="availability"><i></i> Available</span></div><h3>Starter Pack</h3><p>Try the basics and learn how the setup works before choosing more.</p><ul class="feature-list"><li>✓ Beginner-friendly</li><li>✓ Quick-start guide</li><li>✓ Community access</li></ul><div class="product-bottom"><div class="price"><small>PRICE</small><strong>Free</strong></div><a class="button button-small button-ghost" href="https://discord.com/" data-link="discord">Get it on Discord ↗</a></div></div>
+        </article>
+        <article class="product-card" data-category="utility" data-search="configuration utility settings helper">
+          <div class="product-visual visual-cyan"><span class="visual-orb"></span><span class="product-glyph">⚙</span><span class="visual-tag">UTILITY</span></div>
+          <div class="product-info"><div class="product-meta"><span class="category-label cyan-label">UTILITY</span><span class="availability"><i></i> Available</span></div><h3>Config Toolkit</h3><p>Helpful configuration resources to keep your setup organised.</p><ul class="feature-list"><li>✓ Settings checklist</li><li>✓ Organised presets</li><li>✓ Easy to customise</li></ul><div class="product-bottom"><div class="price"><small>FROM</small><strong>₹99</strong></div><div class="product-actions"><a class="button button-small button-primary" href="https://example.com/payment/config-toolkit" data-link="payment-config">Pay ↗</a><a class="button button-small button-ghost" href="https://www.roblox.com/game-pass/0000000000/" data-link="gamepass-config">Open Game Pass ↗</a></div></div></div>
+        </article>
+      </div>
+      <div class="empty-state" id="emptyState" hidden><span>⌕</span><h3>No products found</h3><p>Try another search or select a different filter.</p></div>
+      <p class="demo-note">Demo catalogue: update product names, descriptions, prices, payment URLs and Roblox Game Pass URLs in <code>index.html</code> before publishing. Each paid product has both a payment link and an Open Game Pass link.</p>
+    </section>
+
+    <section class="how-section section-wrap" id="how-to-buy">
+      <div class="section-heading centered"><div class="eyebrow">STRAIGHTFORWARD BY DESIGN</div><h2>Get started in <span class="gradient-text">three steps.</span></h2><p>A simple path from choosing a product to getting help.</p></div>
+      <div class="steps-grid">
+        <div class="step-card"><span class="step-number">01</span><div class="step-icon">⌕</div><h3>Choose your product</h3><p>Compare the available packs and read the included features.</p></div>
+        <div class="step-card"><span class="step-number">02</span><div class="step-icon">↗</div><h3>Complete checkout</h3><p>Use the product’s external payment link. Check the details before paying.</p></div>
+        <div class="step-card"><span class="step-number">03</span><div class="step-icon">✦</div><h3>Join the community</h3><p>Follow the instructions provided and contact support if you need help.</p></div>
+      </div>
+    </section>
+
+    <section class="community-section section-wrap" id="community">
+      <div class="community-panel"><div class="community-glow"></div><div class="community-icon">✦</div><div class="community-copy"><div class="eyebrow">STAY IN THE LOOP</div><h2>Good tools. Better <span class="gradient-text">community.</span></h2><p>Get announcements, setup help and updates from the Fridges Macro community.</p></div><a class="button button-primary" href="https://discord.com/" data-link="discord">Join our Discord ↗</a></div>
+    </section>
+
+    <section class="faq-section section-wrap" id="faq">
+      <div class="section-heading centered"><div class="eyebrow">GOT QUESTIONS?</div><h2>Frequently asked <span class="gradient-text">questions.</span></h2><p>Quick answers before you get started.</p></div>
+      <div class="faq-list">
+        <details class="faq-item"><summary>How do I buy a product?<span class="faq-plus">+</span></summary><p>Choose a product and click its purchase button. It will open the external checkout link configured for that product. Replace the example links before publishing.</p></details>
+        <details class="faq-item"><summary>How do I get support?<span class="faq-plus">+</span></summary><p>Join the Fridges Macro Discord using your real invite link and follow the server’s support instructions.</p></details>
+        <details class="faq-item"><summary>Are the prices on this page final?<span class="faq-plus">+</span></summary><p>No. These are sample prices for the template. Update them to match your real offers and make sure checkout shows the same price and terms.</p></details>
+        <details class="faq-item"><summary>How do I receive a product after payment?<span class="faq-plus">+</span></summary><p>Describe your actual delivery process here. A static GitHub Pages website cannot securely verify payments or automatically deliver protected files by itself.</p></details>
+        <details class="faq-item"><summary>Can I use this website on mobile?<span class="faq-plus">+</span></summary><p>Yes. The layout adapts to smaller screens, and the navigation menu can be opened using the menu button.</p></details>
+      </div>
+    </section>
+
+    <section class="bottom-cta section-wrap"><div><div class="eyebrow">READY WHEN YOU ARE</div><h2>Find your next <span class="gradient-text">favourite tool.</span></h2></div><a class="button button-primary" href="#store">Browse products ↗</a></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main"><a class="brand" href="#home"><span class="brand-mark">F<span>+</span></span><span class="brand-copy"><strong>FRIDGES</strong><small>MACRO HUB</small></span></a><p>A community-first home for tools, resources and support.</p><div class="footer-links"><a href="#store">Store</a><a href="#faq">FAQ</a><a href="https://discord.com/" data-link="discord">Discord ↗</a><a href="https://www.roblox.com/" data-link="roblox">Roblox ↗</a></div></div>
+    <div class="footer-bottom"><span>© <span id="year"></span> Fridges Macro. All rights reserved.</span><span>Use responsibly and follow the rules of the platforms you use.</span></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
